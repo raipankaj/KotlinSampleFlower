@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Flowers</string>
+
+    <string name="desc_flower_image">selected flower image</string>
+    <string name="desc_flower_aconite">flower aconite</string>
+    <string name="desc_flower_ageratum">flower ageratum</string>
+    <string name="desc_flower_allium">flower allium</string>
+    <string name="desc_flower_anemone">flower anemone</string>
+    <string name="desc_flower_angelica">flower angelica</string>
+    <string name="desc_flower_angelonia">flower angelonia</string>
+    <string name="desc_flower_artemisia">flower artemisia</string>
+    <string name="desc_flower_aster">flower aster</string>
+    <string name="desc_flower_astilbe">flower astilbe</string>
+</resources>

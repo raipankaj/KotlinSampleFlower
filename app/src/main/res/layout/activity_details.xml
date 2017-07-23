@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_match"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_flower"
+        style="@style/match_wrap"
+        android:layout_gravity="center"
+        android:fitsSystemWindows="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aconite"
+        android:contentDescription="@string/desc_flower_image" />
+
+    <TextView
+        android:id="@+id/tv_flower_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/standard_view_height"
+        android:gravity="center"
+        tools:text="Flower Name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/flower_name_text_size"
+        android:textStyle="bold|italic" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        style="@style/match_wrap"
+        android:layout_marginTop="@dimen/default_margin" />
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/match_match">
+
+    <ImageView
+        android:id="@+id/flower_aconite"
+        style="@style/first_flower_images"
+        android:layout_marginTop="@dimen/flower_image_margin_top"
+        android:contentDescription="@string/desc_flower_aconite"
+        android:src="@drawable/aconite"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/flower_ageratum"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/flower_ageratum"
+        style="@style/flower_images"
+        android:src="@drawable/ageratum"
+        app:layout_constraintBottom_toBottomOf="@+id/flower_aconite"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/flower_aconite"
+        app:layout_constraintRight_toLeftOf="@+id/flower_allium"
+        app:layout_constraintTop_toTopOf="@+id/flower_aconite"
+        android:contentDescription="@string/desc_flower_ageratum" />
+
+    <ImageView
+        android:id="@+id/flower_allium"
+        style="@style/flower_images"
+        android:src="@drawable/allium"
+        app:layout_constraintBottom_toBottomOf="@+id/flower_ageratum"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/flower_ageratum"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/flower_ageratum"
+        android:contentDescription="@string/desc_flower_allium" />
+
+    <ImageView
+        android:id="@+id/flower_anemone"
+        style="@style/first_flower_images"
+        android:src="@drawable/anemone"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/flower_angelica"
+        app:layout_constraintTop_toBottomOf="@+id/flower_aconite"
+        android:contentDescription="@string/desc_flower_anemone" />
+
+    <ImageView
+        android:id="@+id/flower_angelica"
+        style="@style/flower_images"
+        android:src="@drawable/angelica"
+        app:layout_constraintBottom_toBottomOf="@+id/flower_anemone"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/flower_anemone"
+        app:layout_constraintRight_toLeftOf="@+id/flower_angelonia"
+        app:layout_constraintTop_toTopOf="@+id/flower_anemone"
+        android:contentDescription="@string/desc_flower_angelica" />
+
+    <ImageView
+        android:id="@+id/flower_angelonia"
+        style="@style/flower_images"
+        android:src="@drawable/angelonia"
+        app:layout_constraintBottom_toBottomOf="@+id/flower_angelica"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/flower_angelica"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/flower_angelica"
+        android:contentDescription="@string/desc_flower_angelonia" />
+
+
+    <ImageView
+        android:id="@+id/flower_artemisia"
+        style="@style/first_flower_images"
+        android:src="@drawable/artemisia"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/flower_aster"
+        app:layout_constraintTop_toBottomOf="@+id/flower_anemone"
+        android:contentDescription="@string/desc_flower_artemisia" />
+
+    <ImageView
+        android:id="@+id/flower_aster"
+        style="@style/flower_images"
+        android:src="@drawable/aster"
+        app:layout_constraintBottom_toBottomOf="@+id/flower_artemisia"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/flower_artemisia"
+        app:layout_constraintRight_toLeftOf="@+id/flower_astilbe"
+        app:layout_constraintTop_toTopOf="@+id/flower_artemisia"
+        android:contentDescription="@string/desc_flower_aster" />
+
+    <ImageView
+        android:id="@+id/flower_astilbe"
+        style="@style/flower_images"
+        android:src="@drawable/astible"
+        app:layout_constraintBottom_toBottomOf="@+id/flower_aster"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/flower_aster"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/flower_aster"
+        android:contentDescription="@string/desc_flower_astilbe" />
+</android.support.constraint.ConstraintLayout>

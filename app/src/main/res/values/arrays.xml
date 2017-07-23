@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="key">
+        <item>Sun Needs</item>
+        <item>Soil Needs</item>
+        <item>Zones</item>
+        <item>Height</item>
+        <item>Blooms In</item>
+        <item>Features</item>
+    </string-array>
+
+    <string-array name="aconite">
+        <item>Partial Shade</item>
+        <item>Well-drained</item>
+        <item>4 – 9</item>
+        <item>0.25 – 0.5 feet</item>
+        <item>Early Spring</item>
+        <item>Deer resistant</item>
+    </string-array>
+
+    <string-array name="ageratum">
+        <item>Partial Shade</item>
+        <item>Well-drained</item>
+        <item>5 – 9</item>
+        <item>0.5 – 2 feet</item>
+        <item>Mid‑Summer - Mid‑Fall</item>
+        <item>Good for cut flower</item>
+    </string-array>
+
+    <string-array name="allium">
+        <item>Full Sun</item>
+        <item>Well-drained</item>
+        <item>3 – 10</item>
+        <item>1 – 6 feet</item>
+        <item>Late Spring - Mid‑Summer</item>
+        <item>Good for cut flower</item>
+    </string-array>
+
+    <string-array name="anemone">
+        <item>Partial Shade</item>
+        <item>Well-drained</item>
+        <item>3 – 9</item>
+        <item>2.5 – 5 feet</item>
+        <item>Mid Spring - Mid‑Fall</item>
+        <item>Deer resistant</item>
+    </string-array>
+
+    <string-array name="angelica">
+        <item>Partial Shade</item>
+        <item>Well-drained</item>
+        <item>4 – 9</item>
+        <item>3 – 6 feet</item>
+        <item>Summer</item>
+        <item>Deer resistant</item>
+    </string-array>
+
+    <string-array name="angelonia">
+        <item>Full Sun</item>
+        <item>Damp</item>
+        <item>9 – 11</item>
+        <item>2 – 3 feet</item>
+        <item>Mid‑Summer - Mid‑Fall</item>
+        <item>Tolerates heat</item>
+    </string-array>
+
+    <string-array name="artemisia">
+        <item>Full Sun</item>
+        <item>Well-drained</item>
+        <item>6 – 8</item>
+        <item>2 – 3 feet</item>
+        <item>Late Summer</item>
+        <item>Non-invasive</item>
+    </string-array>
+
+    <string-array name="aster">
+        <item>Partial Shade</item>
+        <item>Well-drained</item>
+        <item>4 – 8</item>
+        <item>0.25 – 4 feet</item>
+        <item>Late Spring - Early Fall</item>
+        <item>Good for cut flowers</item>
+    </string-array>
+
+    <string-array name="astilbe">
+        <item>Partial Shade</item>
+        <item>Well-drained</item>
+        <item>4 – 9</item>
+        <item>1.5 – 6 feet</item>
+        <item>Late Spring - Early Fall</item>
+        <item>Good for cut flowers</item>
+    </string-array>
+</resources>
