@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setListeners()
     }
 
-    internal fun setListeners() {
+    private fun setListeners() {
         findViewById(R.id.flower_aconite).setOnClickListener(mOnClickListener)
         findViewById(R.id.flower_ageratum).setOnClickListener(mOnClickListener)
         findViewById(R.id.flower_allium).setOnClickListener(mOnClickListener)
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         findViewById(R.id.flower_astilbe).setOnClickListener(mOnClickListener)
     }
 
-    internal val mOnClickListener = View.OnClickListener { view ->
+    private val mOnClickListener = View.OnClickListener { view ->
 
         val intent = Intent(applicationContext, DetailsActivity::class.java)
         when (view.id) {
